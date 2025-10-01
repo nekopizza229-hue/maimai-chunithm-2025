@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>maimai × CHUNITHM 音樂遊戲大賽 2025</title>
     <style>
@@ -10,120 +10,146 @@
             background-color: #f5f7ff;
             margin: 0;
             padding: 0;
+            color: #333;
         }
-
         .container {
-            text-align: center;
+            max-width: 900px;
+            margin: auto;
             padding: 20px;
         }
-
         h1 {
             color: #ff33cc;
-            font-size: 2em;
-        }
-
-        h1 img {
-            max-width: 200px;
-            display: block;
-            margin: 10px auto;
-        }
-
-        h2 {
-            color: #3399ff;
-        }
-
-        p {
+            font-size: 2.5em;
             text-align: center;
-            line-height: 1.6;
-            margin: 20px;
         }
-
-        h2.section-title {
+        h2 {
             color: #ff33cc;
+            margin-top: 40px;
+            text-align: center;
         }
-
+        p, li {
+            line-height: 1.6;
+        }
         ul, ol {
             margin-left: 40px;
+            margin-bottom: 20px;
         }
-
-        a {
-            color: #3399ff;
+        .btn {
+            display: inline-block;
+            background-color: #ff33cc;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
             text-decoration: none;
+            margin-top: 10px;
         }
-
-        a:hover {
-            text-decoration: underline;
+        .btn:hover {
+            background-color: #e600b3;
+        }
+        .video-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        iframe {
+            max-width: 100%;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-  <h1>
-    <strong>maimai × CHUNITHM 音樂遊戲大賽 2025</strong>
-    <img src="https://cdn.amnibus.com/upload/save_image/origin_20250801164809_688c7139f0813.jpg" alt="maimai × CHUNITHM" />
-  </h1>
-  <h2>
-    <strong>Rhythm Game Championship 2025</strong>
-  </h2>
+
+    <!-- 標題區 -->
+    <h1>
+        maimai × CHUNITHM 音樂遊戲大賽 2025
+    </h1>
+    <div style="text-align: center;">
+        <img src="https://cdn.amnibus.com/upload/save_image/origin_20250801164809_688c7139f0813.jpg" 
+             alt="maimai × CHUNITHM" 
+             style="max-width: 200px; margin: 10px auto; display: block;">
+    </div>
+    <h2>Rhythm Game Championship 2025</h2>
+
+    <!-- 介紹文字 -->
+    <p style="text-align: center; margin-top: 20px;">
+        隨著音樂遊戲社群的蓬勃發展，<strong>玩家競技</strong>已成為音遊文化的重要一環。<br>
+        本大賽以 <strong>maimai</strong> 與 <strong>CHUNITHM</strong> 為核心，邀請國內外玩家齊聚一堂，<br>
+        挑戰極限、交流技巧，並角逐「<strong>2025 音樂遊戲冠軍</strong>」殊榮！
+    </p>
+
+    <!-- 宣傳影片 -->
+    <div class="video-container">
+        <h2>比賽宣傳影片</h2>
+        <iframe width="640" height="360" 
+                src="https://www.youtube.com/embed/q1DqhbBgnzA" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- 比賽資訊 -->
+    <h2>比賽資訊</h2>
+    <ul>
+        <li><strong>比賽時間：</strong>2025年10月28日 (星期二)</li>
+        <li>
+            <strong>比賽地點：</strong>高雄市立社會教育館 國際會議廳<br>
+            地址：高雄市小港區學府路115號
+        </li>
+    </ul>
+
+    <!-- 比賽項目 -->
+    <h2>比賽項目 Categories</h2>
+    <ul>
+        <li><strong>項目Ａ：</strong>maimai 個人賽 ─ 高速與精準度的極限挑戰</li>
+        <li><strong>項目Ｂ：</strong>CHUNITHM 個人賽 ─ 手速、判定與專注力的考驗</li>
+        <li><strong>項目Ｃ：</strong>雙人合作賽 ─ 團隊默契與戰術比拼</li>
+        <li><strong>項目Ｄ：</strong>自由表演賽 ─ 玩家自選曲目，展現創意與舞台魅力</li>
+    </ul>
+
+    <!-- 重要日程 -->
+    <h2>重要日程 (Important Dates)</h2>
+    <ul>
+        <li><strong>報名開始：</strong>2025年10月01日 (星期三)</li>
+        <li><strong>報名截止：</strong>2025年10月15日 (星期三)</li>
+        <li><strong>選手名單公布：</strong>2025年10月21日 (星期二)</li>
+        <li><strong>比賽日期：</strong>2025年10月28日 (星期二)</li>
+    </ul>
+
+    <!-- 報名方式 -->
+    <h2>報名方式 Registration</h2>
+    <ol>
+        <li>
+            <strong>線上報名：</strong>請於系統填寫報名資訊  
+            <br>
+            <a href="https://forms.gle/hT41niuHG37B72jNA" class="btn">立即報名</a>
+        </li>
+        <li><strong>資格條件：</strong>不限年齡與國籍，需具備 maimai 或 CHUNITHM 基本遊玩能力。</li>
+        <li><strong>注意事項：</strong>參賽者須自備遊戲卡帳號，並遵守比賽規則。</li>
+    </ol>
+
+    <!-- 獎項 -->
+    <h2>獎項 Prizes</h2>
+    <ul>
+        <li><strong>冠軍：</strong>獎盃＋獎金＋特別紀念周邊</li>
+        <li><strong>亞軍：</strong>獎牌＋獎金</li>
+        <li><strong>季軍：</strong>獎牌＋周邊商品</li>
+        <li><strong>特別獎：</strong>最佳表演獎、觀眾人氣獎</li>
+    </ul>
+
+    <!-- 聯絡窗口 -->
+    <h2>聯絡窗口</h2>
+    <p>
+        <strong>
+        maimai × CHUNITHM 音樂遊戲大賽 組委會<br>
+        Email：<a href="mailto:rhythmconf2025@gmail.com">rhythmconf2025@gmail.com</a><br>
+        官方社群：Discord／Twitter 公布中
+        </strong>
+    </p>
+
 </div>
-
-<p>
-  隨著音樂遊戲社群的蓬勃發展，<b>玩家競技</b>已成為音遊文化的重要一環。<br />
-  本大賽以 <strong>maimai</strong> 與 <strong>CHUNITHM</strong> 為核心，邀請國內外玩家齊聚一堂，<br />
-  挑戰極限、交流技巧，並角逐「<strong>2025 音樂遊戲冠軍</strong>」殊榮！<br />
-</p>
-
-<h2 class="section-title"><strong>比賽資訊</strong></h2>
-<ul>
-  <li><strong>比賽時間：</strong>2025年10月28日 (星期二)</li>
-  <li>
-    <strong>比賽地點：</strong>高雄市立社會教育館 國際會議廳<br />
-    地址：高雄市小港區學府路115號
-  </li>
-</ul>
-
-<h2 class="section-title"><strong>比賽項目 Categories</strong></h2>
-<ul>
-  <li><strong>項目Ａ：</strong>maimai 個人賽 ─ 高速與精準度的極限挑戰</li>
-  <li><strong>項目Ｂ：</strong>CHUNITHM 個人賽 ─ 手速、判定與專注力的考驗</li>
-  <li><strong>項目Ｃ：</strong>雙人合作賽 ─ 團隊默契與戰術比拼</li>
-  <li><strong>項目Ｄ：</strong>自由表演賽 ─ 玩家自選曲目，展現創意與舞台魅力</li>
-</ul>
-
-<h2 class="section-title"><strong>重要日程 (Important Dates)</strong></h2>
-<ul>
-  <li><strong>報名開始：</strong>2025年10月01日 (星期三)</li>
-  <li><strong>報名截止：</strong>2025年10月15日 (星期三)</li>
-  <li><strong>選手名單公布：</strong>2025年10月21日 (星期二)</li>
-  <li><strong>比賽日期：</strong>2025年10月28日 (星期二)</li>
-</ul>
-
-<h2 class="section-title"><strong>報名方式 Registration</strong></h2>
-<ol>
-  <li><strong>線上報名：</strong>請於系統填寫報名資訊  
-      <a href="https://forms.gle/hT41niuHG37B72jNA">報名入口</a>
-  </li>
-  <li><strong>資格條件：</strong>不限年齡與國籍，需具備 maimai 或 CHUNITHM 基本遊玩能力。</li>
-  <li><strong>注意事項：</strong>參賽者須自備遊戲卡帳號，並遵守比賽規則。</li>
-</ol>
-
-<h2 class="section-title"><strong>獎項 Prizes</strong></h2>
-<ul>
-  <li><strong>冠軍：</strong>獎盃＋獎金＋特別紀念周邊</li>
-  <li><strong>亞軍：</strong>獎牌＋獎金</li>
-  <li><strong>季軍：</strong>獎牌＋周邊商品</li>
-  <li><strong>特別獎：</strong>最佳表演獎、觀眾人氣獎</li>
-</ul>
-
-<h2 class="section-title"><strong>聯絡窗口</strong></h2>
-<p>
-  <strong>
-    maimai × CHUNITHM 音樂遊戲大賽 組委會<br />
-    Email：<a href="mailto:rhythmconf2025@gmail.com">rhythmconf2025@gmail.com</a><br />
-    官方社群：Discord／Twitter 公布中
-  </strong>
-</p>
 
 </body>
 </html>
